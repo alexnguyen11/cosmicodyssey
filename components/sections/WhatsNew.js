@@ -23,6 +23,7 @@ const WhatsNew = () => {
         "In the latest update, your eyes are narrow, making the world more realistic than ever",
     },
   ];
+  
 
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12relative z-10">
