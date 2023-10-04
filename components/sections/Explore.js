@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import styles from "@/styles";
 import { staggerContainer } from "@/utils/motion";
 import { ExploreCard, TitleText, TypingText } from "@/components";
-import plant01Img from "@/public/planet-01.png";
-import plant02Img from "@/public/planet-02.png";
-import plant03Img from "@/public/planet-03.png";
-import plant04Img from "@/public/planet-04.png";
-import plant05Img from "@/public/planet-05.png";
+import plant01Img from "@/public/assets/explore/planet-01.png";
+import plant02Img from "@/public/assets/explore/planet-02.png";
+import plant03Img from "@/public/assets/explore/planet-03.png";
+import plant04Img from "@/public/assets/explore/planet-04.png";
+import plant05Img from "@/public/assets/explore/planet-05.png";
 
 const Explore = () => {
   const [active, setActive] = useState("world-2");

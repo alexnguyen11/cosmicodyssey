@@ -1,7 +1,15 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Explore from "@/components/sections/Explore";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+} from "@/components/sections/";
 
 export default function Home() {
   return (
@@ -11,8 +19,20 @@ export default function Home() {
       <div className="relative">
         <About />
         <div className="gradient-03 z-0" />
-      <Explore />
+        <Explore />
       </div>
+      <div className="relative">
+        <GetStarted />
+        <div className="gradient-04 z-0" />
+        <WhatsNew />
+      </div>
+      <World />
+      <div className="relative">
+        <Insights />
+        <div className="gradient-04 z-0" />
+        <Feedback />
+      </div>
+      <Footer />
     </div>
   );
 }
