@@ -16,27 +16,27 @@ const Explore = () => {
     {
       id: "world-1",
       imgUrl: plant01Img,
-      title: "The Hogwarts",
+      title: "Cosmic Mysteries Unveiled",
     },
     {
       id: "world-2",
       imgUrl: plant02Img,
-      title: "The Upside Down",
+      title: "Stellar Stories",
     },
     {
       id: "world-3",
       imgUrl: plant03Img,
-      title: "Kadirojo Permai",
+      title: "Cosmic Time Machine",
     },
     {
       id: "world-4",
       imgUrl: plant04Img,
-      title: "Paradise Island",
+      title: "Planets, Moons, and Beyond",
     },
     {
       id: "world-5",
       imgUrl: plant05Img,
-      title: "Hawkins Labs",
+      title: "Cosmic Odyssey",
     },
   ];
 
@@ -49,11 +49,11 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="2xl:max-w-[1280px] w-full mx-auto flex flex-col"
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| The Voyage" textStyles="text-center" />
         <TitleText
           title={
             <>
-              Choose the world you want <br className="md:block hidden" /> to
+              Choose the voyage you want <br className="md:block hidden" /> to
               explore
             </>
           }

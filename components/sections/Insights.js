@@ -3,29 +3,29 @@ import { motion } from "framer-motion";
 import { staggerContainer } from "@/utils/motion";
 import { InsightCard, TitleText, TypingText } from "@/components";
 
-import plant06Img from "@/public/assets/insights/planet-06.png"
-import plant07Img from "@/public/assets/insights/planet-07.png"
-import plant08Img from "@/public/assets/insights/planet-08.png"
+import plant06Img from "@/public/assets/insights/planet-06.png";
+import plant07Img from "@/public/assets/insights/planet-07.png";
+import plant08Img from "@/public/assets/insights/planet-08.png";
 
 const Insights = () => {
   const insights = [
     {
       imgUrl: plant06Img,
-      title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+      title: "The Humbling Perspective",
       subtitle:
-        "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+        "The cosmos humbles us with its vastness, reminding us of our small place in the universe and the need to care for our home planet.",
     },
     {
       imgUrl: plant07Img,
-      title: "7 tips to easily master the madness of the Metaverse",
+      title: "A Tapestry of Science and Wonder",
       subtitle:
-        "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+        "The cosmos is a canvas for scientific exploration, offering insights into the laws of physics, the origins of the universe, and inspiring both curiosity and innovation.",
     },
     {
       imgUrl: plant08Img,
-      title: "With one platform you can explore the whole world virtually",
+      title: "Cosmic Dreams and Human Potential",
       subtitle:
-        "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+        "The cosmos fuels our dreams of exploring distant worlds, pushing the boundaries of technology and human potential, and challenging us to reach for the stars in our pursuit of knowledge and discovery.",
     },
   ];
 

@@ -19,11 +19,11 @@ export default function Home() {
         <Explore />
       </div>
       <div className="relative">
-        <GetStarted />
+        {/* <GetStarted /> */}
         <div className="gradient-04 z-0" />
         <WhatsNew />
       </div>
-      <World />
+      {/* <World /> */}
       <div className="relative">
         <Insights />
         <div className="gradient-04 z-0" />

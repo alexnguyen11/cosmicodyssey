@@ -12,18 +12,17 @@ const WhatsNew = () => {
   const newFeatures = [
     {
       imgUrl: headsetImg,
-      title: "A new world",
+      title: "Cosmic Microwave Background",
       subtitle:
-        "we have the latest update with new world for you to try never mind",
+        "The Cosmic Microwave Background (CMB) is a snapshot of the universe's early moments, dating back 13.8 billion years.",
     },
     {
       imgUrl: vrpanoImg,
-      title: "More realistic",
+      title: "Dark Matter in Space",
       subtitle:
-        "In the latest update, your eyes are narrow, making the world more realistic than ever",
+        "Dark matter, comprising 27% of the universe's mass and energy, is invisible and detected primarily through gravitational influence on galaxies.",
     },
   ];
-  
 
   return (
     <section className="sm:p-16 xs:p-8 px-6 py-12relative z-10">
@@ -38,8 +37,8 @@ const WhatsNew = () => {
           variants={fadeIn("right", "tween", 0.2, 1)}
           className="flex-[0.95] flex justify-center flex-col"
         >
-          <TypingText title="| Whats new?" />
-          <TitleText title={<>What's new about Metaversus?</>} />
+          <TypingText title="| Diving into the Cosmos" />
+          <TitleText title={<>Exploring Fascinating Cosmic Facts</>} />
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
