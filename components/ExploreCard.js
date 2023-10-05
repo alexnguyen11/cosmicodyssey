@@ -4,8 +4,17 @@ import { fadeIn } from "@/utils/motion";
 
 import Image from "next/image";
 import headsetImg from "@/public/assets/explore/headset.svg";
+import Link from "next/link";
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const ExploreCard = ({
+  id,
+  imgUrl,
+  title,
+  link,
+  index,
+  active,
+  handleClick,
+}) => (
   <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
@@ -34,9 +43,11 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
           Enter Cosmos
         </p>
-        <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
-          {title}
-        </h2>
+        <Link href={link}>
+          <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
+            {title}
+          </h2>
+        </Link>
       </div>
     )}
   </motion.div>
