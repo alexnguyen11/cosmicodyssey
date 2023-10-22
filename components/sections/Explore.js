@@ -23,25 +23,25 @@ const Explore = () => {
       id: "world-2",
       imgUrl: plant02Img,
       title: "Stellar Stories",
-      link: "/explore/cosmic-mysteries-unveiled",
+      link: "/explore/stella-stories",
     },
     {
       id: "world-3",
       imgUrl: plant03Img,
       title: "Cosmic Time Machine",
-      link: "/explore/cosmic-mysteries-unveiled",
+      link: "/explore/cosmic-time-machine",
     },
     {
       id: "world-4",
       imgUrl: plant04Img,
       title: "Planets, Moons, and Beyond",
-      link: "/explore/cosmic-mysteries-unveiled",
+      link: "/explore/planets-moons-and-beyond",
     },
     {
       id: "world-5",
       imgUrl: plant05Img,
       title: "Cosmic Odyssey",
-      link: "/explore/cosmic-mysteries-unveiled",
+      link: "/explore/cosmic-odyssey",
     },
   ];
 

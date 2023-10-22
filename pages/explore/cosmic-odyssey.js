@@ -1,7 +1,7 @@
 import ExploreDetails from "@/components/explore/ExploreDetails";
 import img01 from "@/public/assets/explore/topica_01.jpeg";
 
-const Explore01 = () => {
+const Explore05 = () => {
   return (
     <div>
       <ExploreDetails explores={explores} />
@@ -30,4 +30,4 @@ const explores = [
   },
 ];
 
-export default Explore01;
+export default Explore05;
