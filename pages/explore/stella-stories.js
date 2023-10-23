@@ -4,7 +4,7 @@ import img01 from "@/public/assets/explore/topica_01.jpeg";
 const Explore02 = () => {
   return (
     <div>
-      <ExploreDetails explores={explores} />
+      <ExploreDetails title="Stella Stories" explores={explores} />
     </div>
   );
 };
@@ -12,21 +12,21 @@ const Explore02 = () => {
 const explores = [
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "The Birth of Stella",
     content:
-      "In the grand theater of the universe, cosmic mysteries loom large, beckoning us to delve deeper into their enigmatic depths. The story begins with the resounding echoes of the Big Bang, the cataclysmic event that birthed our cosmos nearly 13.8 billion years ago. Yet, the precise conditions of this explosive genesis and what came before it remain shrouded in mystery. The quest to understand the Big Bang's origins and implications takes us on an intellectual journey of cosmic proportions. As we peel back the layers of time, we begin to unravel the intricate tapestry of the universe's beginnings, a narrative that challenges our understanding of space, time, and matter.",
+      "In the heart of the cosmos, where nebulas twinkle and stars dance, was born a celestial being named Stella. Unlike the static stars that merely shone and pulsated, Stella had a consciousness. She was formed from a unique blend of cosmic dust and interstellar magic. Her luminescence was different, for every time she radiated light, a new story of the universe unfurled. Some tales were of galaxies colliding, and others of the silent songs black holes sang. Stella's purpose became clear – she was the universe's storyteller. ",
   },
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "Stella's Cosmic Voyage",
     content:
-      "One of the most tantalizing cosmic enigmas is the presence of dark matter, an elusive and invisible substance that comprises a significant portion of the universe's mass. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, rendering it undetectable by conventional means. Its existence is inferred primarily from its gravitational influence on galaxies and galactic structures. The nature and composition of dark matter remain a tantalizing puzzle, driving physicists to develop innovative experiments and theories to decipher its secrets.",
+      "Every night, Stella journeyed across the vast expanse of space to witness the evolving tales of the cosmos. She ventured into the fiery cores of stars and delved into the mysterious realms of dark matter. With every story she uncovered, her brightness intensified. As she traveled, she left behind a shimmering trail of stardust, which many on Earth mistook for shooting stars. Those who looked closely, however, could see the myriad tales twirling and whirling in the stardust. The universe was teeming with stories, and Stella was eager to share them.",
   },
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "Whispers to Earth",
     content:
-      "One of the most tantalizing cosmic enigmas is the presence of dark matter, an elusive and invisible substance that comprises a significant portion of the universe's mass. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, rendering it undetectable by conventional means. Its existence is inferred primarily from its gravitational influence on galaxies and galactic structures. The nature and composition of dark matter remain a tantalizing puzzle, driving physicists to develop innovative experiments and theories to decipher its secrets.",
+      "Although Stella was a cosmic entity, she felt a special connection to Earth. She was particularly intrigued by the humans who gazed up at her with wonder in their eyes. Every night, she chose a few tales and whispered them into the dreams of dreamers, poets, and visionaries. Many of the greatest cosmic myths and legends that have been told were inspired by Stella's whispers. They served as a reminder that while the universe might seem vast and indifferent, it is also full of stories, waiting to be discovered and cherished.",
   },
 ];
 

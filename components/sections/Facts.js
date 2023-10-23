@@ -8,7 +8,7 @@ import whatsnewImg from "@/public/assets/whatsnew/whats-new.png";
 import headsetImg from "@/public/assets/whatsnew/headset.svg";
 import vrpanoImg from "@/public/assets/whatsnew/vrpano.svg";
 
-const WhatsNew = () => {
+const Facts = () => {
   const newFeatures = [
     {
       imgUrl: headsetImg,
@@ -25,7 +25,7 @@ const WhatsNew = () => {
   ];
 
   return (
-    <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
+    <section id="facts" className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -61,4 +61,4 @@ const WhatsNew = () => {
   );
 };
 
-export default WhatsNew;
+export default Facts;

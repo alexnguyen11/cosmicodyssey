@@ -7,10 +7,7 @@ const MainLayout = ({ children }) => {
     <div className="bg-primary-black overflow-hidden">
       <Head>
         <title>They Odyssey Of Cosmos</title>
-        <meta
-          name="description"
-          content="They Odyssey Of Cosmos Website"
-        />
+        <meta name="description" content="They Odyssey Of Cosmos Website" />
         <link rel="icon" href="/cosmos.png" />
       </Head>
       <Navbar />
@@ -21,4 +18,3 @@ const MainLayout = ({ children }) => {
 };
 
 export default MainLayout;
-    

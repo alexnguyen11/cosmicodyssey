@@ -7,7 +7,7 @@ import Image from "next/image";
 import arrowdownImg from "@/public/assets/about/arrow-down.svg";
 
 const About = () => (
-  <section className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
+  <section id="about" className="sm:p-16 xs:p-8 px-6 py-12 relative z-10">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}

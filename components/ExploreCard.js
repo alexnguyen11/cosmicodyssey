@@ -44,7 +44,7 @@ const ExploreCard = ({
           Enter Cosmos
         </p>
         <Link href={link}>
-          <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
+          <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white hover:underline">
             {title}
           </h2>
         </Link>

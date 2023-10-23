@@ -4,7 +4,7 @@ import img01 from "@/public/assets/explore/topica_01.jpeg";
 const Explore05 = () => {
   return (
     <div>
-      <ExploreDetails explores={explores} />
+      <ExploreDetails title="Cosmic Odyssey" explores={explores} />
     </div>
   );
 };
@@ -12,21 +12,21 @@ const Explore05 = () => {
 const explores = [
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "Embarking on the Odyssey",
     content:
-      "In the grand theater of the universe, cosmic mysteries loom large, beckoning us to delve deeper into their enigmatic depths. The story begins with the resounding echoes of the Big Bang, the cataclysmic event that birthed our cosmos nearly 13.8 billion years ago. Yet, the precise conditions of this explosive genesis and what came before it remain shrouded in mystery. The quest to understand the Big Bang's origins and implications takes us on an intellectual journey of cosmic proportions. As we peel back the layers of time, we begin to unravel the intricate tapestry of the universe's beginnings, a narrative that challenges our understanding of space, time, and matter.",
+      "The Cosmic Odyssey begins at the very precipice of understanding, where the known and the unknown converge. Embarking on this journey, we soar beyond the confines of our pale blue dot, delving into the vastness of the universe. The interstellar voids, illuminated by distant suns, paint tales of cosmic grandeur and profundity. With every light-year traveled, we are beckoned deeper into the heart of the cosmos, each revelation broadening our perspective and challenging preconceived notions of existence and reality.",
   },
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "Navigating Cosmic Phenomena",
     content:
-      "One of the most tantalizing cosmic enigmas is the presence of dark matter, an elusive and invisible substance that comprises a significant portion of the universe's mass. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, rendering it undetectable by conventional means. Its existence is inferred primarily from its gravitational influence on galaxies and galactic structures. The nature and composition of dark matter remain a tantalizing puzzle, driving physicists to develop innovative experiments and theories to decipher its secrets.",
+      "As we traverse the expanse, the Cosmic Odyssey introduces us to astonishing phenomena: supernovae that outshine entire galaxies, neutron stars with unfathomable densities, and the enigmatic pull of black holes, where time itself seems to cease. These cosmic wonders, while awe-inspiring, also hold clues to the universe's intricate workings. By studying them, we glean insights into the life cycles of stars, the formation of elements, and the very fabric of spacetime. Every observation, every recorded pulsar beat, adds a new verse to the cosmic symphony.",
   },
   {
     imgUrl: img01,
-    title: "The Humbling Perspective",
+    title: "Beyond the Observable Horizon",
     content:
-      "One of the most tantalizing cosmic enigmas is the presence of dark matter, an elusive and invisible substance that comprises a significant portion of the universe's mass. Unlike ordinary matter, dark matter does not emit, absorb, or reflect light, rendering it undetectable by conventional means. Its existence is inferred primarily from its gravitational influence on galaxies and galactic structures. The nature and composition of dark matter remain a tantalizing puzzle, driving physicists to develop innovative experiments and theories to decipher its secrets.",
+      "The ultimate leg of the Cosmic Odyssey takes us to the edges of the observable universe and, perhaps, even beyond. Here, in the realm of the almost incomprehensible, we grapple with concepts like multiverses, higher dimensions, and realms of existence beyond our current understanding. It's a journey into the theoretical, where physics, philosophy, and imagination intermingle. Pushing these boundaries, we not only seek to understand the universe's vastness but also our humble place within it, forever curious and forever exploring.",
   },
 ];
 

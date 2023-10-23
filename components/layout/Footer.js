@@ -35,6 +35,7 @@ const Footer = () => {
       initial="hidden"
       whileInView="show"
       className="sm:px-16 px-6 py-8 relative"
+      id="contact"
     >
       <div className="footer-gradient" />
       <div className="2xl:max-w-[1280px] w-full mx-auto flex flex-col gap-8">

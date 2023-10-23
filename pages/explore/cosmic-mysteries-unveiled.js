@@ -4,7 +4,7 @@ import img01 from "@/public/assets/explore/topica_01.jpeg";
 const Explore01 = () => {
   return (
     <div>
-      <ExploreDetails explores={explores} />
+      <ExploreDetails title="Cosmic Mysteries Unveiled" explores={explores} />
     </div>
   );
 };
