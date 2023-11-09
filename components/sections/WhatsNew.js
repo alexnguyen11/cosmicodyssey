@@ -8,7 +8,7 @@ import whatsnewImg from "@/public/assets/whatsnew/whats-new.png";
 import headsetImg from "@/public/assets/whatsnew/headset.svg";
 import vrpanoImg from "@/public/assets/whatsnew/vrpano.svg";
 
-const Facts = () => {
+const WhatsNew = () => {
   const newFeatures = [
     {
       imgUrl: headsetImg,
@@ -61,4 +61,4 @@ const Facts = () => {
   );
 };
 
-export default Facts;
+export default WhatsNew;
