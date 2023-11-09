@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import { fadeIn } from "@/utils/motion";
-
 import Image from "next/image";
 
 const ContentCard = ({ imgUrl, title, content, index }) => {

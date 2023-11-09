@@ -7,7 +7,7 @@ import Image from "next/image";
 import coverImg from "@/public/assets/hero/cover.jpeg";
 import stampImg from "@/public/assets/hero/stamp.png";
 
-const Hero = () => {
+const Main = () => {
   return (
     <div className="sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6">
       <motion.div
@@ -20,20 +20,17 @@ const Hero = () => {
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1
             variants={textVariant(1.1)}
-            className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white"
+            className="font-bold lg:text-[50px] md:text-[90px] sm:text-[60px] text-[44px] lg:leading-[80.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px]  text-white"
           >
-            Cosmic
+            into the
           </motion.h1>
+
           <motion.div
             variants={textVariant(1.2)}
             className="flex flex-row justify-center items-center"
           >
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
-              O
-            </h1>
-            <div className="md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]" />
-            <h1 className="font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white">
-              yssey
+            <h1 className="font-bold lg:text-[50px] md:text-[90px] sm:text-[60px] text-[44px] lg:leading-[80.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-white">
+              infinity.
             </h1>
           </motion.div>
         </div>
@@ -65,4 +62,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Main;

@@ -6,19 +6,20 @@ const SideNavbar = ({ nav, handleNav }) => {
     <div
       className={
         nav
-          ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w[45%] h-screen p-10 ease-in duration-500 backdrop-filter backdrop-blur-lg bg-opacity-30 dark:bg-opacity-10 z-50"
-          : "fixed right-[-100%] top-0 p-10 ease-in duration-500"
+          ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w[45%] h-screen p-10 ease-in duration-500 backdrop-filter backdrop-blur-lg bg-opacity-30 dark:bg-opacity-10 z-50"
+          : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
       }
     >
       <div className="mb-12 flex items-center justify-between text-white">
-        <div onClick={handleNav} className="cursor-pointer text-white">
-          <Close />
-        </div>
+       
         <Link href="/">
           <h2 className="font-extrabold text-[0.7rem] md:text-[24px] leading-[30.24px] text-white">
             COSMIC ODYSSEY
           </h2>
         </Link>
+        <div onClick={handleNav} className="cursor-pointer text-white">
+          <Close />
+        </div>
       </div>
       <div className="py-4 flex flex-col text-center justify-center text-white">
         <ul className="uppercase">
